@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Quotidian Calendar</title>
+  </head>
+  <body>
+    <div class="select-month-container" id="select-month-container">
+      <div class="select-month" id="select-month">
+        <div class="month" id="month" onclick="monthFunc(0)">January</div>
+        <div class="month" id="month" onclick="monthFunc(1)">February</div>
+        <div class="month" id="month" onclick="monthFunc(2)">March</div>
+        <div class="month" id="month" onclick="monthFunc(3)">April</div>
+        <div class="month" id="month" onclick="monthFunc(4)">May</div>
+        <div class="month" id="month" onclick="monthFunc(5)">June</div>
+        <div class="month" id="month" onclick="monthFunc(6)">July</div>
+        <div class="month" id="month" onclick="monthFunc(7)">August</div>
+        <div class="month" id="month" onclick="monthFunc(8)">September</div>
+        <div class="month" id="month" onclick="monthFunc(9)">October</div>
+        <div class="month" id="month" onclick="monthFunc(10)">November</div>
+        <div class="month" id="month" onclick="monthFunc(11)">December</div>
+      </div>
+    </div>
+    <div class="select-year-container" id="select-year-container">
+      <div class="select-year" id="select-year">
+        <div class="year" id="year" onclick="yearFunc(2021)">2021</div>
+        <div class="year" id="year" onclick="yearFunc(2022)">2022</div>
+        <div class="year" id="year" onclick="yearFunc(2023)">2023</div>
+        <div class="year" id="year" onclick="yearFunc(2024)">2024</div>
+        <div class="year" id="year" onclick="yearFunc(2025)">2025</div>
+        <div class="year" id="year" onclick="yearFunc(2026)">2026</div>
+        <div class="year" id="year" onclick="yearFunc(2027)">2027</div>
+        <div class="year" id="year" onclick="yearFunc(2028)">2028</div>
+        <div class="year" id="year" onclick="yearFunc(2029)">2029</div>
+        <div class="year" id="year" onclick="yearFunc(2030)">2030</div>
+      </div>
+    </div>
+    <div class="about-container" id="about-container">
+      <div class="about" id="about">
+        <div>
+          <p>
+            <h1 style="font-weight: 700">quotidian</h1><sub>adjective</sub><br>
+            <h3>ordinary; typical of what happens every day</h3><sub>--Definition of quotidian adjective from the Oxford Advanced Learner's Dictionary</sub><br><br>
+            Here: Quotidians are a 15 to 20 minute long videos "with a little tidbit of interesting information". Quotidian started in January 2021. The videos were uploaded on daily basis. Learn more about <a href="https://bit.ly/quo(001)">Quotidian</a>.<br>
+            <br>Since January 2022 the video upload pattern changed. The pattern depends on the digits of pi 31415...and so on. <br><br>for instance If the Digit is 4 then the next quotidian video will be uploaded 4th day from the current one. <br><br>
+            This Quotidian calendar will help you keep track of video upload date. <br><br><h3>Books Of Quotidian</h3><br>There are so many books that got featured in Quotidian episodes. Books of Quotidian is a list of books that are getting featured. You can search by using Quotidian Episode number, name, book's name, book's author name. <br><br>
+             Note: This is a Fan-made quotidian website.
+          </p>
+        </div>
+      </div>
+    </div>
+    <nav class="nav" id="nav">
+      <div class="nav-logo">Quotidian</div>
+      <div class="nav-calendar" id="nav-calendar" onclick="window.location='./index.html'">Calendar</div>
+      <div class="nav-books" id="nav-books" onclick="window.location='./books.html'">Books</div>
+      <div class="nav-about" id="nav-about">About</div>
+    </nav>
+    <main class="content">
+      <div class="hint">
+        <section class="btn-section">
+          <div class="btn-month" id="btn-month">September</div>
+          <div class="btn-year" id="btn-year">2022</div>
+        </section>
+        <section class="hint-text" id="hint-text">
+          Glitch in the Matrix
+        </section>
+      </div>
+      <section class="calendar-date" id="calendar-date"></section>
+    </main>
+
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

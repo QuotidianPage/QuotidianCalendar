@@ -13,4 +13,8 @@ for instance If the Digit is 4 then the next quotidian video will be uploaded 4t
 
 This Quotidian calendar will help you keep track of video upload date.
 
+## Books Of Quotidian
+
+There are so many books that got featured in Quotidian episodes. Books of Quotidian is a list of books that are getting featured. You can search by using Quotidian Episode number, name, book's name, book's author name.
+
 Note: This is a Fan-made quotidian website.
