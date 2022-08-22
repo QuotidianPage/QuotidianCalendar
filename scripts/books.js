@@ -26,7 +26,7 @@ function addBooks(books) {
     } else {
       arr.push(book.eNumber);
       out = `<div class="book-card" id="book-card">
-      <div class="episode-no" id="${book.eNumber}">Quotidian ${book.eNumber}</div>
+      <div class="episode-no" id="${book.eNumber}" onclick="openVideo('${book.eNumber}')">Quotidian ${book.eNumber}</div>
       <div class="episode-no" id="${book.eName}">${book.eName}</div>
       <div class="books" id="${book.eNumber}books">
         <div class="book" id="book">
