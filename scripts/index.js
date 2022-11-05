@@ -69,8 +69,8 @@ function setCalendar(year, month) {
   }
 
   //previous month leftover dates
-  for (let i = curFirstDay; i > 0; i--) {
-    dates = dates + `<div class="prev" id="prev">${preEndDate - i + 1}</div>`;
+  for (let i = curFirstDay; i >= 0; i--) {
+    dates = dates + `<div class="prev" id="prev">${preEndDate - i}</div>`;
     calendarDates.innerHTML = dates;
   }
 
